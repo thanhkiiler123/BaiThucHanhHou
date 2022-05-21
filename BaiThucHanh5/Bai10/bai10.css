@@ -1,0 +1,26 @@
+﻿form {
+    margin: 0px auto;
+    border: 1px solid red;
+    max-width: 600px;
+    padding: 10px;
+}
+
+textarea {
+    width: 70%;
+}
+
+button {
+    padding: 5px;
+    margin: 5px;
+    line-height: 30px;
+}
+
+section {
+    margin: 10px 0px;
+}
+
+label {
+    width: 70px;
+    margin: 10px;
+    text-align: left
+}

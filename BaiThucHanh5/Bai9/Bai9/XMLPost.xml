@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<rootElement>
+  <Main>
+    <ten>a</ten>
+    <hang>a</hang>
+    <ngay>2022-03-01</ngay>
+    <gia>1</gia>
+  </Main>
+  <MainPost>
+    <ten>a</ten>
+    <hang>a</hang>
+    <ngay>2022-03-08</ngay>
+    <gia>1</gia>
+  </MainPost>
+  <MainPost>
+    <ten>a</ten>
+    <hang>a</hang>
+    <ngay>2022-03-04</ngay>
+    <gia>1</gia>
+  </MainPost>
+</rootElement>

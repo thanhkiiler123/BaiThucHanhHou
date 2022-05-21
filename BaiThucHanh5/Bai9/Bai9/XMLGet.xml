@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<rootElement>
+  <MainGet>
+    <ten>
+    </ten>
+    <hang>
+    </hang>
+    <ngay>
+    </ngay>
+    <gia>
+    </gia>
+  </MainGet>
+  <MainGet>
+    <ten>a</ten>
+    <hang>a</hang>
+    <ngay>2022-03-09</ngay>
+    <gia>11</gia>
+  </MainGet>
+</rootElement>

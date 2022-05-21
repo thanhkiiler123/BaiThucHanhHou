@@ -1,0 +1,281 @@
+@charset "utf-8";
+/* CSS Document */
+:root{
+	--somethingneedtobevariable:cyan;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+nav a{
+	text-decoration: none;
+	color:black;
+}
+.img3a{
+	float:left;
+}
+
+.contentleft{
+	margin:0 15px 0 0;
+}
+
+.grid-container{
+	display:grid;
+	grid-template-columns:auto 1000px;
+}
+
+.sidebar{
+	display: block;
+	height: 50px;
+	background-color: var(--somethingneedtobevariable);
+	color: white;
+	font-size: 15px;
+	margin: 10px 0px;
+	text-decoration: none;
+	box-sizing: border-box;
+	padding: 15px;
+	text-align: center;
+	line-height: 1rem;
+}
+
+.sidebar:hover{
+	background-color: blue;
+	color:black;
+}
+
+.title{
+	color: cyan;
+}
+
+.title:hover{
+	color: blue;
+}
+
+.chitiet{
+	float: right; 
+	color: #F30;
+}
+
+.chitiet:hover{
+	float: right; 
+	color: firebrick;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"] {
+	float: left;
+	padding: 15px;
+}
+
+.row::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
+
+.center{
+	text-align:center;
+	text-decoration: none;
+}
+#ChiaKhoaThanhCong{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	width:50%;
+}
+
+#main{
+
+}
+
+#Header{
+	width: 100%;
+	background-color: #F30;
+	height: 80px;
+	text-transform: uppercase;
+	line-height: 50px;
+	padding: auto;
+	color: white;
+	font-size: larger;
+}
+/*#Nav4{
+	width: 100%;	
+	height: 50px;
+	background-color: cyan;
+	color:white;
+	display: inline-block;
+	text-transform: uppercase;
+}*/
+
+#Nav4 .col-3{
+	background-color: cyan;
+	list-style-type: none;
+	padding:0;
+	height: 50px;
+}
+
+#Nav4 .col-9{
+	display: inline-block;
+	padding: 0;	
+	list-style-type: none;
+}
+
+#Nav4 .col-9 li {
+	background-color: cyan;
+	display: inline-block;
+	width: 25%;
+	text-align: center;
+	position: relative;
+	white-space: unset;
+}
+
+#Nav4 .col-9 li:hover .subNav4{
+	display:block;
+}
+
+#Nav4 > .col-9 > li:hover > a{
+	background-color: #333;
+	color: black;
+}
+
+#Nav4 ul li a{
+	box-sizing: border-box;
+	background-color: cyan;
+	color: white;
+	text-decoration: none;
+	line-height: 50px;
+	padding:0 0;
+	display: block;
+}
+
+
+.subNav4{
+	display: none; 
+	position: absolute;
+	background-color: white;
+    color: black;
+	width: 100%;
+}
+
+#Nav4 .subNav4 li {
+	display: block;
+	background-color: black;
+	color: white;
+	width: 100%;
+}
+
+#Nav4 .subNav4 li a{
+	width: 100%;
+	min-width: 160px;
+}
+
+#Searchbox #btnTim{
+	margin-left: 10px;
+}
+
+#Content{
+	padding: 0 15px;
+	box-sizing: border-box;
+}
+
+#Content li {
+	list-style-type: none;
+	width: 24%;
+	border: 1px solid black;
+	display: inline-block;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+#Content li a{
+	text-decoration: none;
+	font-size: large;
+	color: black;
+}
+
+.img{
+	width:100%;
+	height: 300px;
+	padding: 15px;
+}
+
+@media screen and (max-width:768px){
+	.col-3{
+		width: 100%;
+	}
+	.col-6{
+		width: 100%;
+	}
+	.col-9{
+		width: 100%;
+	}
+	#Nav4 .col-3{
+		width: 0;
+	}
+	#Nav4 .col-9 li{
+		width: 100%;
+	}
+	#Nav4 .subNav4 li {
+		display: block;
+		background-color: antiquewhite !important;
+		color: white;
+		width: 100%;
+		z-index: 2;
+	}
+	#Content li{
+		width: 50%;
+		margin: 0px 0px;
+	}
+	#Content{
+		padding: 0;
+	}
+}
+
+@media print{
+	html{
+		background-color: white !important;
+		color:black !important;
+		text-decoration: none;
+	}
+
+	#Cohoinghenghiep{
+		color: black !important;
+	}
+	
+	.title{
+		color:black !important;
+	}
+
+	.title:hover{
+		color: black !important;
+	}
+
+	.chitiet{
+		color: black;
+	}
+
+	.chitiet:hover{
+		color: black;
+	}
+
+	header{
+		background-color: white !important;
+		color:black !important;
+	}
+}

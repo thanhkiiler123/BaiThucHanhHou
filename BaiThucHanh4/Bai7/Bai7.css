@@ -1,0 +1,23 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+form{
+	border: 1px solid black;
+	padding: 10px;
+	width: 400px;
+}
+select{
+	width: 150px;
+	margin: 10px;
+}
+#button{
+	text-align: right;
+}
+button{
+	margin: 5px;
+	padding: 5px 10px;
+}
+#hidden{
+	display: none;
+}
